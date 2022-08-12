@@ -1,0 +1,326 @@
+Problem 2:
+
+this is the pstree:
+init, 1, 1, 0, 45, 2, 0
+	ueventd, 45, 1, 1, 0, 61, 0
+	logd, 61, 1, 1, 0, 62, 1036
+	vold, 62, 1, 1, 0, 66, 0
+	healthd, 66, 1, 1, 0, 67, 0
+	lmkd, 67, 1, 1, 0, 68, 0
+	servicemanager, 68, 1, 1, 0, 69, 1000
+	surfaceflinger, 69, 1, 1, 0, 71, 1000
+	qemud, 71, 1, 1, 0, 74, 0
+	sh, 74, 1, 1, 0, 75, 2000
+	adbd, 75, 1, 1, 1119, 76, 0
+		sh, 1119, 1, 75, 2239, 1, 0
+			testARM, 2239, 0, 1119, 0, 1, 0
+	netd, 76, 1, 1, 0, 77, 0
+	debuggerd, 77, 1, 1, 0, 78, 0
+	rild, 78, 1, 1, 0, 79, 1001
+	drmserver, 79, 1, 1, 0, 80, 1019
+	mediaserver, 80, 1, 1, 0, 81, 1013
+	installd, 81, 1, 1, 0, 82, 0
+	keystore, 82, 1, 1, 0, 83, 1017
+	main, 83, 1, 1, 226, 84, 0
+		system_server, 226, 1, 83, 0, 648, 1000
+		ndroid.systemui, 648, 1, 83, 0, 699, 10013
+		putmethod.latin, 699, 1, 83, 0, 713, 10032
+		m.android.phone, 713, 1, 83, 0, 722, 1001
+		droid.launcher3, 722, 1, 83, 0, 750, 10007
+		d.process.acore, 750, 1, 83, 0, 842, 10002
+		d.process.media, 842, 1, 83, 0, 883, 10005
+		droid.deskclock, 883, 1, 83, 0, 963, 10023
+		ndroid.calendar, 963, 1, 83, 0, 984, 10019
+		viders.calendar, 984, 1, 83, 0, 1062, 10001
+		m.android.email, 1062, 1, 83, 0, 1077, 10027
+		ndroid.exchange, 1077, 1, 83, 0, 2183, 10029
+		.android.dialer, 2183, 1, 83, 0, 2199, 10004
+		android.browser, 2199, 1, 83, 0, 1, 10017
+	gatekeeperd, 84, 1, 1, 0, 85, 1000
+	perfprofd, 85, 1, 1, 0, 86, 0
+	fingerprintd, 86, 1, 1, 0, 1, 1000
+kthreadd, 2, 1, 0, 3, 0, 0
+	ksoftirqd/0, 3, 1, 2, 0, 6, 0
+	khelper, 6, 1, 2, 0, 7, 0
+	sync_supers, 7, 1, 2, 0, 8, 0
+	bdi-default, 8, 1, 2, 0, 9, 0
+	kblockd, 9, 1, 2, 0, 10, 0
+	rpciod, 10, 1, 2, 0, 11, 0
+	kworker/0:1, 11, 1, 2, 0, 12, 0
+	kswapd0, 12, 1, 2, 0, 13, 0
+	fsnotify_mark, 13, 1, 2, 0, 14, 0
+	crypto, 14, 1, 2, 0, 25, 0
+	kworker/u:1, 25, 1, 2, 0, 30, 0
+	mtdblock0, 30, 1, 2, 0, 35, 0
+	mtdblock1, 35, 1, 2, 0, 40, 0
+	mtdblock2, 40, 1, 2, 0, 41, 0
+	binder, 41, 1, 2, 0, 42, 0
+	deferwq, 42, 1, 2, 0, 43, 0
+	kworker/u:2, 43, 1, 2, 0, 44, 0
+	mmcqd/0, 44, 1, 2, 0, 47, 0
+	jbd2/mtdblock0-, 47, 1, 2, 0, 48, 0
+	ext4-dio-unwrit, 48, 1, 2, 0, 53, 0
+	jbd2/mtdblock1-, 53, 1, 2, 0, 54, 0
+	ext4-dio-unwrit, 54, 1, 2, 0, 59, 0
+	jbd2/mtdblock2-, 59, 1, 2, 0, 60, 0
+	ext4-dio-unwrit, 60, 1, 2, 0, 125, 0
+	kauditd, 125, 1, 2, 0, 177, 0
+	kworker/0:2, 177, 1, 2, 0, 2228, 0
+	flush-31:1, 2228, 1, 2, 0, 0, 0
+	
+Problem 3
+
+517020910038Parent: 2240
+517020910038Child: 2241
+this is the pstree:
+init, 1, 1, 0, 45, 2, 0
+	ueventd, 45, 1, 1, 0, 61, 0
+	logd, 61, 1, 1, 0, 62, 1036
+	vold, 62, 1, 1, 0, 66, 0
+	healthd, 66, 1, 1, 0, 67, 0
+	lmkd, 67, 1, 1, 0, 68, 0
+	servicemanager, 68, 1, 1, 0, 69, 1000
+	surfaceflinger, 69, 1, 1, 0, 71, 1000
+	qemud, 71, 1, 1, 0, 74, 0
+	sh, 74, 1, 1, 0, 75, 2000
+	adbd, 75, 1, 1, 1119, 76, 0
+		sh, 1119, 1, 75, 2240, 1, 0
+			problem3ARM, 2240, 1, 1119, 2241, 1, 0
+				testARM, 2241, 0, 2240, 0, 1, 0
+	netd, 76, 1, 1, 0, 77, 0
+	debuggerd, 77, 1, 1, 0, 78, 0
+	rild, 78, 1, 1, 0, 79, 1001
+	drmserver, 79, 1, 1, 0, 80, 1019
+	mediaserver, 80, 1, 1, 0, 81, 1013
+	installd, 81, 1, 1, 0, 82, 0
+	keystore, 82, 1, 1, 0, 83, 1017
+	main, 83, 1, 1, 226, 84, 0
+		system_server, 226, 1, 83, 0, 648, 1000
+		ndroid.systemui, 648, 1, 83, 0, 699, 10013
+		putmethod.latin, 699, 1, 83, 0, 713, 10032
+		m.android.phone, 713, 1, 83, 0, 722, 1001
+		droid.launcher3, 722, 1, 83, 0, 750, 10007
+		d.process.acore, 750, 1, 83, 0, 842, 10002
+		d.process.media, 842, 1, 83, 0, 883, 10005
+		droid.deskclock, 883, 1, 83, 0, 963, 10023
+		ndroid.calendar, 963, 1, 83, 0, 984, 10019
+		viders.calendar, 984, 1, 83, 0, 1062, 10001
+		m.android.email, 1062, 1, 83, 0, 1077, 10027
+		ndroid.exchange, 1077, 1, 83, 0, 2183, 10029
+		.android.dialer, 2183, 1, 83, 0, 2199, 10004
+		android.browser, 2199, 1, 83, 0, 1, 10017
+	gatekeeperd, 84, 1, 1, 0, 85, 1000
+	perfprofd, 85, 1, 1, 0, 86, 0
+	fingerprintd, 86, 1, 1, 0, 1, 1000
+kthreadd, 2, 1, 0, 3, 0, 0
+	ksoftirqd/0, 3, 1, 2, 0, 6, 0
+	khelper, 6, 1, 2, 0, 7, 0
+	sync_supers, 7, 1, 2, 0, 8, 0
+	bdi-default, 8, 1, 2, 0, 9, 0
+	kblockd, 9, 1, 2, 0, 10, 0
+	rpciod, 10, 1, 2, 0, 11, 0
+	kworker/0:1, 11, 1, 2, 0, 12, 0
+	kswapd0, 12, 1, 2, 0, 13, 0
+	fsnotify_mark, 13, 1, 2, 0, 14, 0
+	crypto, 14, 1, 2, 0, 25, 0
+	kworker/u:1, 25, 1, 2, 0, 30, 0
+	mtdblock0, 30, 1, 2, 0, 35, 0
+	mtdblock1, 35, 1, 2, 0, 40, 0
+	mtdblock2, 40, 1, 2, 0, 41, 0
+	binder, 41, 1, 2, 0, 42, 0
+	deferwq, 42, 1, 2, 0, 43, 0
+	kworker/u:2, 43, 1, 2, 0, 44, 0
+	mmcqd/0, 44, 1, 2, 0, 47, 0
+	jbd2/mtdblock0-, 47, 1, 2, 0, 48, 0
+	ext4-dio-unwrit, 48, 1, 2, 0, 53, 0
+	jbd2/mtdblock1-, 53, 1, 2, 0, 54, 0
+	ext4-dio-unwrit, 54, 1, 2, 0, 59, 0
+	jbd2/mtdblock2-, 59, 1, 2, 0, 60, 0
+	ext4-dio-unwrit, 60, 1, 2, 0, 125, 0
+	kauditd, 125, 1, 2, 0, 177, 0
+	kworker/0:2, 177, 1, 2, 0, 2228, 0
+	flush-31:1, 2228, 1, 2, 0, 0, 0
+
+
+Problem4
+
+
+\\test1 result, input: 2 4 41 10
+
+Cooks[2],Cashiers[4],Customer[41]
+Begin run.
+Customer[11] comes.
+Customer[40] comes.
+Cashier[1] accepts an order.
+Customer[29] comes.
+Cashier[3] accepts an order.
+Customer[16] comes.
+Cashier[2] accepts an order.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[1] takes a burger to customer.
+Cashier[3] takes a burger to customer.
+Customer[31] comes.
+Cashier[4] accepts an order.
+Customer[37] comes.
+Customer[13] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[1] accepts an order.
+Cashier[1] takes a burger to customer.
+Cashier[3] accepts an order.
+Cashier[3] takes a burger to customer.
+Customer[21] comes.
+Customer[24] comes.
+Customer[25] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[1] accepts an order.
+Cashier[3] accepts an order.
+Customer[33] comes.
+Customer[34] comes.
+Customer[12] comes.
+Customer[18] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[1] takes a burger to customer.
+Cashier[3] takes a burger to customer.
+Cashier[2] accepts an order.
+Cashier[4] accepts an order.
+Customer[32] comes.
+Customer[35] comes.
+Customer[36] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[1] accepts an order.
+Cashier[3] accepts an order.
+Customer[39] comes.
+Customer[14] comes.
+Customer[15] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] accepts an order.
+Cashier[2] takes a burger to customer.
+Cashier[1] takes a burger to customer.
+Cashier[4] accepts an order.
+Customer[17] comes.
+Customer[23] comes.
+Customer[28] comes.
+Customer[41] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[3] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[2] accepts an order.
+Cashier[1] accepts an order.
+Customer[22] comes.
+Customer[26] comes.
+Customer[27] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] takes a burger to customer.
+Cashier[1] takes a burger to customer.
+Cashier[3] accepts an order.
+Cashier[4] accepts an order.
+Customer[30] comes.
+Customer[38] comes.
+Customer[19] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[3] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[2] accepts an order.
+Cashier[1] accepts an order.
+Customer[10] comes.
+Customer[9] comes.
+Customer[8] comes.
+Customer[7] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] takes a burger to customer.
+Cashier[1] takes a burger to customer.
+Cashier[3] accepts an order.
+Cashier[4] accepts an order.
+Customer[6] comes.
+Customer[5] comes.
+Customer[4] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[3] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[2] accepts an order.
+Cashier[1] accepts an order.
+Customer[3] comes.
+Customer[2] comes.
+Customer[1] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[3] accepts an order.
+Cashier[3] takes a burger to customer.
+Cashier[2] takes a burger to customer.
+Cashier[4] accepts an order.
+Customer[20] comes.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[1] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[3] accepts an order.
+Cashier[2] accepts an order.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[1] accepts an order.
+Cashier[1] takes a burger to customer.
+Cashier[4] accepts an order.
+Cashier[4] takes a burger to customer.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[1] accepts an order.
+Cashier[1] takes a burger to customer.
+Cashier[3] takes a burger to customer.
+Cashier[4] accepts an order.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[1] accepts an order.
+Cashier[3] accepts an order.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[1] takes a burger to customer.
+Cashier[3] takes a burger to customer.
+Cashier[2] accepts an order.
+Cashier[4] accepts an order.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[1] accepts an order.
+Cashier[3] accepts an order.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] accepts an order.
+Cashier[2] takes a burger to customer.
+Cashier[1] takes a burger to customer.
+Cashier[4] accepts an order.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[3] takes a burger to customer.
+Cashier[4] takes a burger to customer.
+Cashier[2] accepts an order.
+Cook[2] make a burger.
+Cook[1] make a burger.
+Cashier[2] takes a burger to customer.
+job end!
+
+
+\\test2 result, input: 2 4 41
+the number of paramters is error!
+
+\\test3 result, input: 2 aa 41 10
+the value of paramters is error!
+
+
